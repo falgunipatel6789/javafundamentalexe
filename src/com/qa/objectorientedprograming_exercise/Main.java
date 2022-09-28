@@ -10,7 +10,7 @@ public class Main {
 
 		product.category = "class A";
 		product.rating = 5;
-		product.isAvailable = 'y';
+		product.isAvailable = true;
 		System.out.println(" product id is " + product.id);
 		System.out.println(" product name is " + product.name);
 		System.out.println(" product category is " + product.category);

@@ -7,6 +7,17 @@ public class Product {
 	String category;
 	byte rating;
 	double discountPercentage;
-	char isAvailable;
+	boolean isAvailable;
+	Product(){
+		id = 2;
+		name ="mouse";
+		price= 201.50f;
+		category="asdf";
+		rating = 5;
+		isAvailable= true;
+		
+		
+				
+	}
 	
 }
