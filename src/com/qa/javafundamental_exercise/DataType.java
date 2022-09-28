@@ -1,0 +1,63 @@
+package com.qa.javafundamental_exercise;
+
+public class DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      byte age;
+      age = 25 ;
+      System.out.println(" age is " + age );
+     
+  		// comment - will be ignored by the compiler
+  		/*
+  		 * Integers byte - 1 byte short - 2 bytes int - 4 bytes long - 8 bytes
+  		 */
+
+  		/*
+  		 * Variable - address of the memory location where you store the data
+  		 */
+  		// datatype variable
+  		byte age1 ; // -128 to + 127
+  		age1 = 35;
+
+  		// byte eligibleAge = 20; // not coding standard
+  		byte eligibleAge;
+  		eligibleAge = 20;
+
+  		byte maleMinAge, femaleMinAge;
+  		maleMinAge = 25;
+  		femaleMinAge = 22;
+
+  		System.out.println("Age is : " + age + " , Eligible Age : " + eligibleAge);
+  		System.out.println("Male Minimum Age is : " + maleMinAge + " and Female Min Age : " + femaleMinAge);
+
+  		short minSalary;
+  		minSalary = 30000; // -32768 to +32767
+
+  		System.out.println("Min Salary is : " + minSalary + "$");
+
+  		int totalSalaryOfEmployee;
+  		totalSalaryOfEmployee = 435334534;
+
+  		long TotalSalariesOfAllEmployees;
+  		TotalSalariesOfAllEmployees = 63434634634363463L;
+
+  		float averagePrice;
+  		averagePrice = 33454.345F;
+
+  		double averageSalaryOfEmployee;
+  		averageSalaryOfEmployee = 3453453.345;
+
+  		char gender;
+  		gender = 'M';
+  		System.out.println(" gender is "+ gender);
+        
+  		boolean isEligible;
+  		isEligible = false;
+
+  		System.out.println("Is Eligible : " + isEligible);
+
+  	}
+
+  
+}
