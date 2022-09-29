@@ -12,7 +12,6 @@ public class Product {
 	static String SELLERNAME = "falguni";
 	static int CONTACTNO = 0123456;
 	static String EMAIL = "patel_sarin@yahoo.co.uk";
-	
 
 	Product() {
 
@@ -39,8 +38,8 @@ public class Product {
 
 	static void productclass() {
 
-		System.out.println("seller name is  "+ SELLERNAME);
-		System.out.println("seller contact is  " + CONTACTNO );
+		System.out.println("seller name is  " + SELLERNAME);
+		System.out.println("seller contact is  " + CONTACTNO);
 		System.out.println("seller email is  " + EMAIL);
 
 	}
