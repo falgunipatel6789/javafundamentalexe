@@ -22,6 +22,8 @@ public class Main {
 		System.out.println(" product discount price is " + productdiscprs);
 
 		System.out.println(" Product final price is " + product.productfinalprice());
+		
+		Product.productclass();
 
 	}
 
