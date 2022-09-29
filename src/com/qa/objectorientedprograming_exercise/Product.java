@@ -12,6 +12,7 @@ public class Product {
 	static String SELLERNAME = "falguni";
 	static int CONTACTNO = 0123456;
 	static String EMAIL = "patel_sarin@yahoo.co.uk";
+	
 
 	Product() {
 
