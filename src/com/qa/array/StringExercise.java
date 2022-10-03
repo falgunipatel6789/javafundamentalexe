@@ -1,0 +1,28 @@
+package com.qa.array;
+
+public class StringExercise {
+
+	public static void main(String[] args) {
+		
+		String str2 = new String ("abcd");
+		//System.out.println(str2.charAt(2));
+		//System.out.println(str2.compareTo("abcde"));
+		//System.out.println(str2.compareToIgnoreCase("aBcDe"));
+		//System.out.println(str2.concat("hello"));
+		//System.out.println(str2.replace('a', 'A'));
+		//System.out.println(str2.length());
+		String str5 = new String("Hello How Are you");
+		String[] strs = str5.split(" ");
+		System.out.println( " The number of word is  "+ strs.length);
+		for(String s : strs) {
+			System.out.println(s);
+			System.out.println(s.contentEquals());
+			System.out.println(" number of character is " + s.length());
+			
+		}
+		System.out.println(str5.contains("a-z"));
+		
+		
+		
+	}
+}
